@@ -77,20 +77,26 @@ call MPI_COMM_SIZE(mpar%SUB_COMM, mpar%sub_nproc,ierr)
 call set_atoms()
 atom = C_IV
  
+!v_ran(1) = 50.d5
+!v_ran(2) = 70.d5
+!v_ran(3) = 80.d5
+!v_ran(4) = 90.d5
+!v_ran(1) = 100.d5
 
-v_ran(1) = sqrt(2.d0*k*1.e5/atom%mass)
-v_ran(2) = 20.d5
-v_ran(3) = 30.d5
-v_ran(4) = 40.d5
-v_ran(5) = 50.d5
-v_ran(6) = 60.d5
-v_ran(7) = 70.d5
-v_ran(8) = 80.d5
-v_ran(9) = 90.d5
-v_ran(10) = 100.d5
-v_ran(7)  = 150.d5	! cm/s
-v_ran(8)  = 200.d5	! cm/s
-v_ran(9)  = 250.d5	! cm/s
+ 
+ v_ran(1) = sqrt(2.d0*k*1.e5/atom%mass)
+!v_ran(2) = 20.d5
+!v_ran(3) = 30.d5
+!v_ran(4) = 40.d5
+!v_ran(5) = 50.d5
+!v_ran(6) = 60.d5
+!v_ran(7) = 70.d5
+!v_ran(8) = 80.d5
+!v_ran(9) = 90.d5
+!v_ran(10) = 100.d5
+!v_ran(7)  = 150.d5	! cm/s
+!v_ran(8)  = 200.d5	! cm/s
+!v_ran(9)  = 250.d5	! cm/s
 
 
 iv_ran = 1
@@ -99,29 +105,56 @@ tau_D(1) = 0.d0
 
 
 v_exp(1)  = 0.d5	! cm/s
-v_exp(2)  = 10.d5
-v_exp(3)  = 20.d5	! cm/s
-v_exp(4)  = 30.d5	! cm/s
-v_exp(5)  = 40.d5	! cm/s
-v_exp(6)  = 50.d5	! cm/s
-v_exp(7)  = 60.d5	! cm/s
-v_exp(8)  = 70.d5	! cm/s
-v_exp(9)  = 80.d5	! cm/s
-v_exp(10)  = 90.d5	! cm/s
-v_exp(11)  = 100.d5	! cm/s
+v_exp(2)  = 100.d5
+v_exp(3)  = 200.d5	! cm/s
+v_exp(4)  = 300.d5	! cm/s
+v_exp(5)  = 400.d5	! cm/s
+v_exp(6)  = 500.d5	! cm/s
+v_exp(7)  = 600.d5	! cm/s
+v_exp(8)  = 700.d5	! cm/s
+v_exp(9)  = 800.d5	! cm/s
+v_exp(10)  = 900.d5	! cm/s
+v_exp(11)  = 1000.d5	! cm/s
 
 
 
 !r_cl(1) = 1d-3	! ratio r_cl/R_H
 !ir_cl = 1
 
-N_atom(1) = 3.2d13	! cm^-2
-N_atom(2) = 3.2d14	! cm^-2
-N_atom(3) = 3.2d15	! cm^-2
-N_atom(4) = 3.2d16	! cm^-2
-N_atom(5) = 3.2d17	! cm^-2
-N_atom(6) = 3.2d18	! cm^-2
-N_atom(7) = 3.2d19	! cm^-2
+
+N_atom(1) = 1.3d13	! cm^-2
+N_atom(2) = 2.d13	! cm^-2
+N_atom(3) = 3.2d13	! cm^-2
+N_atom(4) = 5.d13	! cm^-2
+N_atom(5) = 7.9d13	! cm^-2
+
+
+N_atom(6) = 1.3d4	! cm^-2
+N_atom(7) = 2.d14	! cm^-2
+N_atom(8) = 3.2d14	! cm^-2
+N_atom(9) = 5.d14	! cm^-2
+N_atom(10) = 7.9d14	! cm^-2
+
+N_atom(11) = 1.3d15	! cm^-2
+N_atom(12) = 2.d15	! cm^-2
+N_atom(13) = 3.2d15	! cm^-2
+N_atom(14) = 5.d15	! cm^-2
+N_atom(15) = 7.9d15	! cm^-2
+
+N_atom(16) = 1.3d16	! cm^-2
+N_atom(17) = 2.d16	! cm^-2
+N_atom(18) = 3.2d16	! cm^-2
+N_atom(19) = 5.d16	! cm^-2
+N_atom(20) = 7.9d16	! cm^-2
+
+N_atom(21) = 1.3d17	! cm^-2
+N_atom(22) = 2.d17	! cm^-2
+N_atom(23) = 3.2d17	! cm^-2
+N_atom(24) = 5.d17	! cm^-2
+N_atom(25) = 7.9d17	! cm^-2
+
+
+!N_atom(7) = 3.2d19	! cm^-2
 
 !N_atom(21) = 1.3d17	! cm^-2
 !N_atom(22) = 2.d17	! cm^-2
@@ -129,14 +162,16 @@ N_atom(7) = 3.2d19	! cm^-2
 !N_atom(25) = 7.9d17	! cm^-2
 
 
-v_emit(1) = 1.d5 	! cm/s
+!v_emit(1) = 1.d5 	! cm/s
 !v_emit(2) = 10.d5
 !v_emit(3) = 50.d5 
 !v_emit(4) = 100.d5 	! cm/s
 !v_emit(5) = 150.d5 	! cm/s
-!v_emit(6) = 200.d5 	! cm/s
-!v_emit(7) = 250.d5 
-!v_emit(8) = 300.d5 	! cm/s
+
+
+v_emit(1) = 350.d5 	! cm/s
+v_emit(2) = 250.d5 
+v_emit(3) = 300.d5 	! cm/s
 
 
 
@@ -145,15 +180,15 @@ itau_d = 1
 
 
 do iv_emit = 1,1
-do iv_ran = 1,9
+do iv_ran = 1,1
 do iv_exp = 1,11
-do iN_atom = 1,7
+do iN_atom = 1,25
 
 
 
 call set_escape_observer()
 call set_dust('dust_data/MW_C_IV.dat')
-	write(fn_model,100) 'data_ran/N_atom',N_atom(iN_atom), &
+	write(fn_model,100) 'data_vel/N_atom',N_atom(iN_atom), &
 					'_Vexp', v_exp(iv_exp)/1e5, &
 					'_Vemit', v_emit(iv_emit)/1e5, &
 					'_tauD', tau_d(itau_d), &

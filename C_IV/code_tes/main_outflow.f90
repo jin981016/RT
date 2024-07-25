@@ -17,10 +17,10 @@ use clumpy_RT_mod
 use dust_mod
 implicit none
 
-integer, parameter :: nphoton_emit = 1.0e5
+integer, parameter :: nphoton_emit = 1.0e6
 integer :: nphoton_flat
 !	MAIN
-integer, parameter :: nN_atom = 21, nv_exp = 21, nv_ran = 3, ntau_d = 16
+integer, parameter :: nN_atom = 26, nv_exp = 1, nv_ran = 6, ntau_d = 16
 real(kind=rkd) :: N_atom(nN_atom), v_exp(nv_exp), v_ran(nv_ran), tau_d(ntau_d+1)
 real(kind=rkd) :: N_atom_min, N_atom_max, dN_atom
 real(kind=rkd) :: tau_d_min, tau_d_max, dtau_d
@@ -84,19 +84,11 @@ atom = C_IV
 !v_ran(1) = 100.d5
 
  
- v_ran(1) = sqrt(2.d0*k*1.e5/atom%mass)
-!v_ran(2) = 20.d5
-!v_ran(3) = 30.d5
-!v_ran(4) = 40.d5
-!v_ran(5) = 50.d5
-!v_ran(6) = 60.d5
-!v_ran(7) = 70.d5
-!v_ran(8) = 80.d5
-!v_ran(9) = 90.d5
-!v_ran(10) = 100.d5
-!v_ran(7)  = 150.d5	! cm/s
-!v_ran(8)  = 200.d5	! cm/s
-!v_ran(9)  = 250.d5	! cm/s
+v_ran(1) = sqrt(2.d0*k*1.e5/atom%mass)
+v_ran(2) = 50.d5
+v_ran(3) = 100.d5
+v_ran(4) = 150.d5
+v_ran(5) = 200.d5
 
 
 iv_ran = 1
@@ -129,7 +121,7 @@ N_atom(4) = 5.d13	! cm^-2
 N_atom(5) = 7.9d13	! cm^-2
 
 
-N_atom(6) = 1.3d4	! cm^-2
+N_atom(6) = 1.3d14	! cm^-2
 N_atom(7) = 2.d14	! cm^-2
 N_atom(8) = 3.2d14	! cm^-2
 N_atom(9) = 5.d14	! cm^-2
@@ -162,17 +154,20 @@ N_atom(25) = 7.9d17	! cm^-2
 !N_atom(25) = 7.9d17	! cm^-2
 
 
-!v_emit(1) = 1.d5 	! cm/s
-!v_emit(2) = 10.d5
-!v_emit(3) = 50.d5 
-!v_emit(4) = 100.d5 	! cm/s
-!v_emit(5) = 150.d5 	! cm/s
-
-
-v_emit(1) = 350.d5 	! cm/s
-v_emit(2) = 250.d5 
-v_emit(3) = 300.d5 	! cm/s
-
+v_emit(1) = 1.d5 	! cm/s
+v_emit(2) = 10.d5
+v_emit(3) = 50.d5 
+v_emit(4) = 100.d5 	! cm/s
+v_emit(5) = 150.d5 	! cm/s
+v_emit(6) = 200.d5 	! cm/s
+v_emit(7) = 250.d5 	! cm/s
+v_emit(8) = 300.d5 	! cm/s
+v_emit(9) = 350.d5 	! cm/s
+v_emit(10) = 400.d5 	! cm/s
+v_emit(11) = 450.d5 	! cm/s
+v_emit(12) = 500.d5 	! cm/s
+v_emit(13) = 550.d5 	! cm/s
+v_emit(14) = 600.d5 	! cm/s
 
 
 
@@ -180,15 +175,15 @@ itau_d = 1
 
 
 do iv_emit = 1,1
-do iv_ran = 1,1
-do iv_exp = 1,11
+do iv_ran = 1,5
+do iv_exp = 1,1
 do iN_atom = 1,25
 
 
 
 call set_escape_observer()
 call set_dust('dust_data/MW_C_IV.dat')
-	write(fn_model,100) 'data_vel/N_atom',N_atom(iN_atom), &
+	write(fn_model,100) 'test_1e6/N_atom',N_atom(iN_atom), &
 					'_Vexp', v_exp(iv_exp)/1e5, &
 					'_Vemit', v_emit(iv_emit)/1e5, &
 					'_tauD', tau_d(itau_d), &

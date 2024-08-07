@@ -20,7 +20,7 @@ implicit none
 integer, parameter :: nphoton_emit = 1.0e5
 integer :: nphoton_flat
 !	MAIN
-integer, parameter :: nN_atom = 21, nv_exp = 21, nv_ran = 3, ntau_d = 16
+integer, parameter :: nN_atom = 32, nv_exp = 21, nv_ran = 4, ntau_d = 16
 real(kind=rkd) :: N_atom(nN_atom), v_exp(nv_exp), v_ran(nv_ran), tau_d(ntau_d+1)
 real(kind=rkd) :: N_atom_min, N_atom_max, dN_atom
 real(kind=rkd) :: tau_d_min, tau_d_max, dtau_d
@@ -78,7 +78,12 @@ call set_atoms()
 atom = C_IV
  
 
-v_ran(1) = sqrt(2.d0*k*5.e5/atom%mass)
+v_ran(1) = sqrt(2.d0*k*1.e5/atom%mass)
+v_ran(2) = 20d5
+v_ran(3) = 30d5
+v_ran(4) = 40d5
+
+
 iv_ran = 1
 
 
@@ -139,7 +144,7 @@ itau_d = 1
 
 
 do iv_emit = 1,1
-do iv_ran = 1,1
+do iv_ran = 2,4
 do iv_exp = 1,1
 do iN_atom = 1,30
 
@@ -148,7 +153,7 @@ do iN_atom = 1,30
 call set_escape_observer()
 call set_dust('dust_data/MW_C_IV.dat')
 
-	write(fn_model,100) 'data_C_IV/N_atom',N_atom(iN_atom), &
+	write(fn_model,100) 'vv/N_atom',N_atom(iN_atom), &
 					'_Vexp', v_exp(iv_exp)/1e5, &
 					'_Vemit', v_emit(iv_emit)/1e5, &
 					'_tauD', tau_d(itau_d), &

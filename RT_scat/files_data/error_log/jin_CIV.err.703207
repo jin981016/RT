@@ -1,0 +1,387 @@
+srun: spank: option "enable-coredump" provided by both coredumpsize.so and coredumpsize.so
+srun: Job step aborted: Waiting up to 62 seconds for job step to finish.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014CE9994D8C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  000000000043508F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014CE9922C2BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000151F15F038C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000435122  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000151F157E22BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000147ED1C1B8C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000434DEB  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000147ED14FA2BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001517E59618C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000434832  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001517E52402BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014EF233D18C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  000000000042DDC1  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A43  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014EF22CB02BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000146A9CF918C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  000000000042F81E  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A43  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000146A9C8702BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001514022F78C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405E89  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000434B6B  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000151401BD62BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001535F345E8C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  00000000004CE75B  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A26  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001535F2D3D2BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001545E0A2B8C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  000000000042F41A  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A43  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001545E030A2BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001465AD2C08C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000434C0A  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001465ACB9F2BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014B8ED1B58C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000434B66  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014B8ECA942BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001511B05258C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  00000000004C8AD4  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000434FAB  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001511AFE042BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014D5DBF7A8C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000434D53  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014D5DB8592BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014FE1F0CB8C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  000000000042F3D1  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A43  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014FE1E9AA2BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001508CE9808C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  000000000042F100  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A43  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001508CE25F2BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014660ADED8C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  000000000042F112  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A43  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014660A6CC2BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014A5CCF308C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  00000000004C8B34  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000434FAB  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014A5CC80F2BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014AF320248C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  00000000004CE774  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A26  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014AF319032BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014FBC12DF8C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  00000000004CE693  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000435368  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000434B8F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014FBC0BBE2BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014F0322528C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  000000000042E585  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A43  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014F031B312BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014C9FDA548C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405C59  Unknown               Unknown  Unknown
+CIV.out (deleted)  000000000043550E  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000434B8F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014C9FD3332BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014BDF82318C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  00000000004CE3FE  Unknown               Unknown  Unknown
+CIV.out (deleted)  000000000043558A  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000434B8F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014BDF7B102BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014A7343988C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000434826  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014A733C772BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014E8836EF8C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405C74  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000434D74  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014E882FCE2BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014A5A86458C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405D22  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000435734  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000434B8F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014A5A7F242BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014A78D99F8C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  00000000004348C6  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014A78D27E2BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001534408DA8C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000434E23  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001534401B92BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001456980538C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405C90  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000434F86  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001456979322BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000154D2122A8C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  000000000042E212  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A43  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000154D20B092BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000151CB78238C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405B64  Unknown               Unknown  Unknown
+CIV.out (deleted)  00000000004354B6  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000434B8F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000151CB71022BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000151260D358C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000434839  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001512606142BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014AAFA9148C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000435249  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014AAFA1F32BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000149BDE3558C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405D3E  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000149BDDC342BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000155042E4B8C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000434B2F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000015504272A2BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014DFDC9BF8C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  00000000004CE555  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000434DC4  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014DFDC29E2BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014AE1BB9F8C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405CA4  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000434B6B  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014AE1B47E2BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014960ADF08C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405CFA  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000434F86  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014960A6CF2BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014B2D9F2E8C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  00000000004352BB  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000434B8F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014B2D980D2BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001500C49448C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  00000000004CE42C  Unknown               Unknown  Unknown
+CIV.out (deleted)  000000000043558A  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000434B8F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001500C42232BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out (deleted)  000000000044B1FB  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001547119268C0  Unknown               Unknown  Unknown
+CIV.out (deleted)  00000000004CEA45  Unknown               Unknown  Unknown
+CIV.out (deleted)  00000000004355ED  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000434B8F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000405A5F  Unknown               Unknown  Unknown
+CIV.out (deleted)  0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001547112052BD  __libc_start_main     Unknown  Unknown
+CIV.out (deleted)  000000000040346A  Unknown               Unknown  Unknown
+slurmstepd: error: *** JOB 703207 ON freya075 CANCELLED AT 2024-08-13T19:07:03 ***

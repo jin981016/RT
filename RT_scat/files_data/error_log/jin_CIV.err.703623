@@ -1,0 +1,727 @@
+srun: spank: option "enable-coredump" provided by both coredumpsize.so and coredumpsize.so
+srun: Job step aborted: Waiting up to 62 seconds for job step to finish.
+slurmstepd: error: *** JOB 703623 ON freya091 CANCELLED AT 2024-08-14T19:03:35 ***
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014D83BD3A8C0  Unknown               Unknown  Unknown
+CIV.out            000000000042EAC0  tracing_tau_mod_m         130  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014D83B6192BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001477D26578C0  Unknown               Unknown  Unknown
+CIV.out            000000000042F976  tracing_tau_mod_m         147  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001477D1F362BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000148C23B928C0  Unknown               Unknown  Unknown
+CIV.out            000000000042FD41  tracing_tau_mod_m          83  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000148C234712BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014FAC51AB8C0  Unknown               Unknown  Unknown
+CIV.out            0000000000429157  escape_obs_mod_mp         139  escape_observer_mod.f90
+CIV.out            0000000000405B0A  MAIN__                    307  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014FAC4A8A2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014BFFC52E8C0  Unknown               Unknown  Unknown
+CIV.out            000000000042FD41  tracing_tau_mod_m          83  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014BFFBE0D2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000147FC964B8C0  Unknown               Unknown  Unknown
+CIV.out            000000000042FBDF  tracing_tau_mod_m         151  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000147FC8F2A2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014FFC7CEB8C0  Unknown               Unknown  Unknown
+CIV.out            0000000000432674  tracing_tau_mod_m          83  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014FFC75CA2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001546482478C0  Unknown               Unknown  Unknown
+CIV.out            000000000042F190  tracing_tau_mod_m         132  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000154647B262BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014819C5988C0  Unknown               Unknown  Unknown
+CIV.out            000000000042FBDF  tracing_tau_mod_m         151  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014819BE772BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001550D05BD8C0  Unknown               Unknown  Unknown
+CIV.out            00000000004126A3  voigt_mod_mp_voig         721  voigt_mod.f90
+CIV.out            000000000042F4F3  tracing_tau_mod_m         146  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001550CFE9C2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001471F8F5E8C0  Unknown               Unknown  Unknown
+CIV.out            000000000042F2C6  tracing_tau_mod_m         137  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001471F883D2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  000015164114D8C0  Unknown               Unknown  Unknown
+CIV.out            000000000042E07E  tracing_tau_mod_m          66  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000151640A2C2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014734A1E28C0  Unknown               Unknown  Unknown
+CIV.out            00000000004352FF  scattering_mod_mp         167  scattering_mod.f90
+CIV.out            0000000000405AEB  MAIN__                    294  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000147349AC12BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000150FE56848C0  Unknown               Unknown  Unknown
+CIV.out            000000000042F190  tracing_tau_mod_m         132  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000150FE4F632BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000149DED5AE8C0  Unknown               Unknown  Unknown
+CIV.out            000000000042FBDF  tracing_tau_mod_m         151  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000149DECE8D2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001529903A48C0  Unknown               Unknown  Unknown
+CIV.out            000000000042FE3A  tracing_tau_mod_m          83  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000015298FC832BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001463DE5028C0  Unknown               Unknown  Unknown
+CIV.out            000000000042F190  tracing_tau_mod_m         132  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001463DDDE12BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014E9433AF8C0  Unknown               Unknown  Unknown
+CIV.out            000000000042F40E  tracing_tau_mod_m         137  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014E942C8E2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014CCB82308C0  Unknown               Unknown  Unknown
+CIV.out            000000000042E19A  tracing_tau_mod_m          72  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014CCB7B0F2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001491C21538C0  Unknown               Unknown  Unknown
+CIV.out            000000000042FD41  tracing_tau_mod_m          83  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001491C1A322BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014F0FBB078C0  Unknown               Unknown  Unknown
+CIV.out            000000000041278D  voigt_mod_mp_voig         721  voigt_mod.f90
+CIV.out            000000000042F4BE  tracing_tau_mod_m         145  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014F0FB3E62BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001544395E98C0  Unknown               Unknown  Unknown
+CIV.out            000000000042F190  tracing_tau_mod_m         132  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000154438EC82BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001465309508C0  Unknown               Unknown  Unknown
+CIV.out            000000000042F190  tracing_tau_mod_m         132  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014653022F2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014D04D8298C0  Unknown               Unknown  Unknown
+CIV.out            0000000000432674  tracing_tau_mod_m          83  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014D04D1082BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000149DB3F7B8C0  Unknown               Unknown  Unknown
+CIV.out            000000000042FBDF  tracing_tau_mod_m         151  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000149DB385A2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000146FF2C888C0  Unknown               Unknown  Unknown
+CIV.out            000000000042FBDF  tracing_tau_mod_m         151  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000146FF25672BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000155289A728C0  Unknown               Unknown  Unknown
+CIV.out            000000000042F8A7  tracing_tau_mod_m         150  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001552893512BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014C9BE8C18C0  Unknown               Unknown  Unknown
+CIV.out            000000000042FD41  tracing_tau_mod_m          83  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014C9BE1A02BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014FC0093F8C0  Unknown               Unknown  Unknown
+CIV.out            000000000042F199  tracing_tau_mod_m         133  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014FC0021E2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014A98A0208C0  Unknown               Unknown  Unknown
+CIV.out            000000000042F190  tracing_tau_mod_m         132  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014A9898FF2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014874D24C8C0  Unknown               Unknown  Unknown
+CIV.out            000000000042E7DC  tracing_tau_mod_m         130  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014874CB2B2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014C9EE83E8C0  Unknown               Unknown  Unknown
+CIV.out            000000000042E3D4  tracing_tau_mod_m          80  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014C9EE11D2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001547B6C8D8C0  Unknown               Unknown  Unknown
+CIV.out            0000000000412221  voigt_mod_mp_voig         705  voigt_mod.f90
+CIV.out            000000000042F4BE  tracing_tau_mod_m         145  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001547B656C2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001456EC9858C0  Unknown               Unknown  Unknown
+CIV.out            000000000042F4EE  tracing_tau_mod_m         145  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001456EC2642BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001456469D58C0  Unknown               Unknown  Unknown
+CIV.out            000000000042E06B  tracing_tau_mod_m          65  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001456462B42BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014D0DD48F8C0  Unknown               Unknown  Unknown
+CIV.out            0000000000432437  tracing_tau_mod_m         177  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014D0DCD6E2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000146230CC98C0  Unknown               Unknown  Unknown
+CIV.out            000000000042E46F  tracing_tau_mod_m          83  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001462305A82BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014CDAE74A8C0  Unknown               Unknown  Unknown
+CIV.out            000000000042FC6E  tracing_tau_mod_m         203  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014CDAE0292BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000146C132648C0  Unknown               Unknown  Unknown
+CIV.out            000000000042E3CF  tracing_tau_mod_m          80  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000146C12B432BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000146C38EC58C0  Unknown               Unknown  Unknown
+CIV.out            00000000004CEADE  Unknown               Unknown  Unknown
+CIV.out            00000000004357D9  random_mp_rand_re        1864  random_mod.f90
+CIV.out            0000000000434C1F  scattering_mod_mp          86  scattering_mod.f90
+CIV.out            0000000000405AEB  MAIN__                    294  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000146C387A42BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001523715ED8C0  Unknown               Unknown  Unknown
+CIV.out            000000000042F190  tracing_tau_mod_m         132  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000152370ECC2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001510BA7208C0  Unknown               Unknown  Unknown
+CIV.out            000000000042FD41  tracing_tau_mod_m          83  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001510B9FFF2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001541E50388C0  Unknown               Unknown  Unknown
+CIV.out            000000000042E040  tracing_tau_mod_m          65  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001541E49172BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  000015180BB3E8C0  Unknown               Unknown  Unknown
+CIV.out            000000000042F190  tracing_tau_mod_m         132  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000015180B41D2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  000015005AA058C0  Unknown               Unknown  Unknown
+CIV.out            000000000042FD41  tracing_tau_mod_m          83  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000015005A2E42BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001469CBB088C0  Unknown               Unknown  Unknown
+CIV.out            000000000042F199  tracing_tau_mod_m         133  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001469CB3E72BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000152241B648C0  Unknown               Unknown  Unknown
+CIV.out            000000000042FC4E  tracing_tau_mod_m         189  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001522414432BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001533357358C0  Unknown               Unknown  Unknown
+CIV.out            000000000042E73F  tracing_tau_mod_m          83  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001533350142BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014C9E416E8C0  Unknown               Unknown  Unknown
+CIV.out            000000000042FC24  tracing_tau_mod_m         173  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014C9E3A4D2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014A2FF0898C0  Unknown               Unknown  Unknown
+CIV.out            000000000042FBDF  tracing_tau_mod_m         151  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014A2FE9682BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014B54EE558C0  Unknown               Unknown  Unknown
+CIV.out            000000000042FBDF  tracing_tau_mod_m         151  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014B54E7342BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000147F7C33B8C0  Unknown               Unknown  Unknown
+CIV.out            000000000042A978  escape_obs_mod_mp         232  escape_observer_mod.f90
+CIV.out            0000000000405B0A  MAIN__                    307  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000147F7BC1A2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001509099D18C0  Unknown               Unknown  Unknown
+CIV.out            000000000042F1E4  tracing_tau_mod_m         135  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001509092B02BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000154AEB7698C0  Unknown               Unknown  Unknown
+CIV.out            000000000042EC11  tracing_tau_mod_m         132  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000154AEB0482BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014C0F62808C0  Unknown               Unknown  Unknown
+CIV.out            000000000041281E  voigt_mod_mp_voig         721  voigt_mod.f90
+CIV.out            000000000042F4F3  tracing_tau_mod_m         146  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014C0F5B5F2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000150BAD5298C0  Unknown               Unknown  Unknown
+CIV.out            000000000042EFF7  tracing_tau_mod_m         134  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000150BACE082BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B2FE  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014C9BE8C18C0  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001465E007B8C0  Unknown               Unknown  Unknown
+CIV.out            0000000000412342  voigt_mod_mp_voig         715  voigt_mod.f90
+CIV.out            000000000042F4BE  tracing_tau_mod_m         145  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001465DF95A2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014DB2FA7D8C0  Unknown               Unknown  Unknown
+CIV.out            000000000042F1B3  tracing_tau_mod_m         132  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014DB2F35C2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001520A15298C0  Unknown               Unknown  Unknown
+CIV.out            000000000042F1A8  tracing_tau_mod_m         134  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001520A0E082BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014D4F7F5E8C0  Unknown               Unknown  Unknown
+CIV.out            000000000042F417  tracing_tau_mod_m         138  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014D4F783D2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001492883CC8C0  Unknown               Unknown  Unknown
+CIV.out            000000000042DF18  tracing_tau_mod_m          59  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000149287CAB2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001495C75F28C0  Unknown               Unknown  Unknown
+CIV.out            000000000042FD41  tracing_tau_mod_m          83  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001495C6ED12BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001472FE3D08C0  Unknown               Unknown  Unknown
+CIV.out            000000000042F1F2  tracing_tau_mod_m         135  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001472FDCAF2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014F7779888C0  Unknown               Unknown  Unknown
+CIV.out            000000000042F2C6  tracing_tau_mod_m         137  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014F7772672BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000146784A7D8C0  Unknown               Unknown  Unknown
+CIV.out            0000000000432674  tracing_tau_mod_m          83  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014678435C2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000147E550158C0  Unknown               Unknown  Unknown
+CIV.out            0000000000434D64  scattering_mod_mp         729  random_mod.f90
+CIV.out            0000000000405AEB  MAIN__                    294  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000147E548F42BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000149B69E398C0  Unknown               Unknown  Unknown
+CIV.out            000000000042E2A2  tracing_tau_mod_m          74  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000149B697182BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000153E8EC0C8C0  Unknown               Unknown  Unknown
+CIV.out            000000000042FD41  tracing_tau_mod_m          83  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000153E8E4EB2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000146CF3E868C0  Unknown               Unknown  Unknown
+CIV.out            000000000042F1A2  tracing_tau_mod_m         133  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000146CF37652BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001551A70C08C0  Unknown               Unknown  Unknown
+CIV.out            000000000042F40E  tracing_tau_mod_m         137  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001551A699F2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000145F93F1A8C0  Unknown               Unknown  Unknown
+CIV.out            000000000042FD41  tracing_tau_mod_m          83  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000145F937F92BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000152FE61BE8C0  Unknown               Unknown  Unknown
+CIV.out            000000000042F199  tracing_tau_mod_m         133  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000152FE5A9D2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000151C1C0348C0  Unknown               Unknown  Unknown
+CIV.out            000000000042FBDF  tracing_tau_mod_m         151  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000151C1B9132BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  0000154F90D358C0  Unknown               Unknown  Unknown
+CIV.out            000000000042F1A8  tracing_tau_mod_m         134  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000154F906142BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014FF5BB3F8C0  Unknown               Unknown  Unknown
+CIV.out            000000000042FBDF  tracing_tau_mod_m         151  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014FF5B41E2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  000015426117E8C0  Unknown               Unknown  Unknown
+CIV.out            000000000042F199  tracing_tau_mod_m         133  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000154260A5D2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001499DC9308C0  Unknown               Unknown  Unknown
+CIV.out            000000000042ED1F  tracing_tau_mod_m         133  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001499DC20F2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  000014A267D1E8C0  Unknown               Unknown  Unknown
+CIV.out            000000000042F1C8  tracing_tau_mod_m         135  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014A2675FD2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044B28B  Unknown               Unknown  Unknown
+libpthread-2.31.s  00001463948C48C0  Unknown               Unknown  Unknown
+CIV.out            000000000042FE24  tracing_tau_mod_m         215  tracing_tau_mod.f90
+CIV.out            0000000000405ACF  MAIN__                    286  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001463941A32BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown

@@ -1,0 +1,52 @@
+#                                                                                         
+title "std"
+# INCIDENT RADIATION FIELD
+table SED "QSO.sed"
+nuL(nu) = 42 at 4.00 Ryd
+# CHEMICAL COMPOSITION
+# GEOMETRY
+radius 21.48935 23.48935
+init "dlaw_HI_exp.ini"
+no line transfer
+#diffuse OTS
+sphere
+set save prefix "CIV_Lumin_42"
+stop column denstiy 24
+stop temperature off
+iterate to convergence
+save last radius ".rad"
+save last continuum ".cont"
+save last physical conditions ".phy"
+save last overview ".ovr"
+save last element hydrogen ".ele_H"
+save last element helium   ".ele_He"
+save last element carbon   ".ele_C"
+save last element nitrogen ".ele_N"
+save last element oxygen   ".ele_O"
+save last element magnesium ".ele_Mg"
+save last element argon    ".ele_Ar"
+save last element neon     ".ele_Ne"
+save last element sulphur  ".ele_S"
+save last element chlorin  ".ele_Cl"
+save last element iron     ".ele_Fe"
+save last element silicon  ".ele_Si"
+save last lines emissivity  ".emis"
+H  1  1215.67A
+H  1  1025.72A
+H  1  4861.33A
+H  1  6562.81A
+O  6  1031.91A
+O  6  1037.62A
+He 2  972.108A
+He 2  1025.27A
+He 2  1640.43A
+C  4  1550.78
+O  3  5006.84A
+N  5  1238.82
+N  5  1242.80
+c  4  1548.19
+c  4  1550.78
+mg 2  2795.53
+mg 2  2802.71
+end of lines
+

@@ -1,0 +1,1608 @@
+srun: spank: option "enable-coredump" provided by both coredumpsize.so and coredumpsize.so
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: Bad file descriptor
+forrtl: severe (39): error during read, unit 0, file /proc/1848/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000015194A1B72BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1863/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001539B68EE2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1829/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014EE0DF4B2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35389/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001500A42982BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35387/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001473E6A902BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1843/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014CC0C4F92BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35398/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014EAF7B0F2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28623/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014C6307B82BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35379/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000153AD92992BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35394/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000015107CE352BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1856/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014E73100E2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1832/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001492C62F32BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1833/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001484CA7182BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35363/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000148FB63412BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1855/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014934B87D2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1827/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000148AB3CA22BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28607/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000152C5CEFF2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35384/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000015100E9922BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35386/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000147289BD42BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35380/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014D1A6F812BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35364/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014773558F2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35392/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001551E6B252BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35362/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014DEE70702BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28628/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014C373A852BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35390/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000148E95A862BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35369/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000149C6277B2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35381/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000153DA00692BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35382/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001528E15122BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35361/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000015171C4A62BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35397/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000151BE63DA2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35395/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000149CAA9C52BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28597/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014C28ED0D2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35375/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000145D444E72BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35370/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000151407B1C2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35393/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014B2C5A812BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35388/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000015472EEB22BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28600/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000153C912CD2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35359/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000150647D542BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28604/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001546B107B2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: Bad file descriptor
+forrtl: severe (39): error during read, unit 0, file /proc/14933/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014E8020032BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28615/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000149AD5D9C2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14928/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000145C7D2D82BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35373/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014F4B95B12BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28598/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000145B07C6B2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14937/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000146422C352BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28606/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014CD270342BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14927/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000151EC258E2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28591/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000149B072422BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1858/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014A77A0082BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14930/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000146FB3BEC2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1831/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000145A5EF762BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14905/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001514C7E982BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28627/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014A2F3E4B2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1846/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000145DA9C632BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14925/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014A2C789E2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1864/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014A8DEFA02BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14932/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000152C2753D2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35376/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001459F18632BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28596/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001535D18EE2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14902/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014936600A2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35367/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001521747972BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28620/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014E8FEBF02BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1854/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000145DCAE832BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14923/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000150F775F72BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35368/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001521ECBF02BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28613/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014E7A173F2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14900/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014E453E232BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35383/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000015006C0A12BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28624/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014DAD47A32BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14929/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014EBB52DC2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35365/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000151D61EFB2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28625/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000015362CBEF2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14920/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000148E6EC782BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35366/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014FBC9D812BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28590/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000152D2B3672BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14917/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000151AC37FA2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35374/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014E26EB322BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28602/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001462CAF0D2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14921/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000015245E31D2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35372/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001534286092BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28609/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014902EEB82BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14909/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014F456D0C2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35391/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001489D68E32BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28608/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001493BF3EA2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14935/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014AA444352BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35385/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014F830F812BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28610/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000146784B892BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14919/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014A739A4E2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35360/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014A70C3922BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28619/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001524235232BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14926/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014B40896C2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35371/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000015500121B2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28595/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000149CF8D762BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14938/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014C51F4EA2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35378/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000151EA06932BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28599/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014C32548F2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14922/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000145BCE8492BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28616/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001495082C42BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14906/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001532818C32BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28601/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014C80A2C02BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14913/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001466241652BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28622/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001528937732BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14910/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000152614A6D2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28593/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014903FBF82BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14934/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014DD7C8DD2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35377/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014EC01EB62BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28603/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001472549BD2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14924/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001537BB2B22BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28612/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001546F6C3D2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14918/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001497D2BCD2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28617/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014E37670E2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14912/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014D4489EB2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28614/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000015494B5C12BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14915/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001549E5F3F2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/35396/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001499FDF132BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28611/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014A7249662BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14899/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001486655432BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28621/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000154528CB32BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14931/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001522F0D8A2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28626/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001534234F32BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14939/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000015379DA102BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28594/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001505A91F62BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14903/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001503FA0F22BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28618/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014CAA63732BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28605/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014FC590142BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28629/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000153DC22522BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/28592/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014FE15EF22BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1860/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001538F2E5B2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14914/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014941750A2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1841/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000149C528B82BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14901/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001552492482BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1857/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001534848A62BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14911/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001525D96A22BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1851/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001493597C92BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14916/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000151D8110A2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1859/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014CA712FE2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14907/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001511D99D82BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1845/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014FDE345A2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14908/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001532162BB2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1834/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014BA167422BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1850/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014EE712382BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1825/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014EE0DE612BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1835/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014A09DFF72BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1839/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000145CC3EA52BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1836/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000146BFC9DB2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1838/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014E90EE8E2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1826/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014A33CA182BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1844/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014E5F14262BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1830/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000146B9200E2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/14904/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014803FDDC2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1862/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014A7573CC2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1849/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000015034C1BF2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1853/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001497E94902BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1842/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001544B3FDC2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1837/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014CDD04762BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1847/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001464EBD9D2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1828/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001534CB8AC2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1840/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       00001524C7A0C2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1852/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       0000152D7145C2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+forrtl: severe (39): error during read, unit 0, file /proc/1861/fd/2
+Image              PC                Routine            Line        Source             
+CIV.out            000000000044572B  Unknown               Unknown  Unknown
+CIV.out            000000000046261F  Unknown               Unknown  Unknown
+CIV.out            0000000000423423  dust_mod_mp_set_d          29  set_dust_mod.f90
+CIV.out            0000000000403D9E  MAIN__                    245  main_outflow.f90
+CIV.out            0000000000403552  Unknown               Unknown  Unknown
+libc-2.31.so       000014641129A2BD  __libc_start_main     Unknown  Unknown
+CIV.out            000000000040346A  Unknown               Unknown  Unknown
+srun: error: freya152: tasks 120-123,125-159: Exited with exit code 39
+srun: launch/slurm: _step_signal: Terminating StepId=702352.0
+slurmstepd: error: *** STEP 702352.0 ON freya149 CANCELLED AT 2024-08-07T14:06:53 ***
+srun: error: freya151: tasks 80-119: Exited with exit code 39
+srun: error: freya149: tasks 0-39: Exited with exit code 39
+srun: error: freya152: task 124: Exited with exit code 39
+srun: error: freya150: tasks 40-79: Exited with exit code 39

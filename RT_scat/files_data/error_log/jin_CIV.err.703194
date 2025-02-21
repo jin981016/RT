@@ -1,0 +1,3 @@
+srun: spank: option "enable-coredump" provided by both coredumpsize.so and coredumpsize.so
+srun: Job step aborted: Waiting up to 62 seconds for job step to finish.
+slurmstepd: error: *** JOB 703194 ON freya169 CANCELLED AT 2024-08-13T18:33:05 ***

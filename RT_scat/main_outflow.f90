@@ -19,7 +19,7 @@ use dust_mod
 use data_mod
 implicit none
 
-integer, parameter :: nphoton_emit = 1.0d5
+integer, parameter :: nphoton_emit = 1.0d6
 integer :: nphoton_flat
 !	MAIN
 integer, parameter :: nN_atom = 26, nv_exp = 14, nv_ran = 14, ntau_d = 2
@@ -101,7 +101,7 @@ iv_ran = 1
 
 tau_D(1) = 0.d0
 
-v_exp(1)  = 100.d5	! cm/s
+v_exp(1)  = 000.d5	! cm/s
 v_exp(2)  = 200.d5
 v_exp(3)  = 400.d5	! cm/s
 v_exp(4)  = 600.d5	! cm/s
@@ -176,8 +176,8 @@ N_atom(25) = 7.9d16	! cm^-2
 itau_d = 1
 
 
-do iv_emit = 1,6  ! w/o_s = 15 , w/ = 1 - 6
-do iv_ran = 1,6  ! w/o_s = 15,  w/ = 1 - 6
+do iv_emit = 3,3  ! w/o_s = 15 , w/ = 1 - 6
+do iv_ran = 1,3  ! w/o_s = 15,  w/ = 1 - 6
 do iv_exp =1,1    ! w/o_s = 1 ,  w/ = 1 - 8  
 do iN_atom = 1,1
 
@@ -186,7 +186,7 @@ do iN_atom = 1,1
 
 call set_escape_observer()
 call set_dust('dust_data/MW_C_IV.dat')
-	write(fn_model,100) 'data_CIV_w_s/N_atom',N_atom(iN_atom), &
+	write(fn_model,100) 'data_CIV_w_o_v/N_atom',N_atom(iN_atom), &
 					'_Vexp', v_exp(iv_exp)/1e5, &
 					'_Vemit', v_emit(iv_emit)/1e5, &
 					'_tauD', tau_d(itau_d), &

@@ -102,24 +102,26 @@ iv_ran = 1
 tau_D(1) = 0.d0
 
 v_exp(1)  = 000.d5	! cm/s
-v_exp(2)  = 200.d5
-v_exp(3)  = 400.d5	! cm/s
-v_exp(4)  = 600.d5	! cm/s
-v_exp(5)  = 800.d5
-v_exp(6)  = 300.d5	! cm/s
-v_exp(7)  = 1000.d5	! cm/s
-v_exp(8)  = 500.d5
+v_exp(2)  = 100.d5
+v_exp(3)  = 200.d5	! cm/s
+v_exp(4)  = 300.d5	! cm/s
+v_exp(5)  = 400.d5
+v_exp(6)  = 500.d5	! cm/s
+v_exp(7)  = 6000.d5	! cm/s
+v_exp(8)  = 700.d5
+v_exp(9)  = 800.d5      ! cm/s
+v_exp(10)  = 900.d5      ! cm/s
+v_exp(11)  = 1000.d5
 
-v_exp(9)  = 700.d5      ! cm/s
-v_exp(10)  = 800.d5      ! cm/s
-v_exp(11)  = 900.d5
+
 v_exp(12)  = 1000.d5
 
 
 
 v_emit(15) = 0.d5 
-v_emit(1)  = 1.d5       ! cm/s
-v_emit(2)  = 50.d5       ! cm/s
+v_emit(1)  = 100.d5       ! cm/s
+v_emit(2)  = 500.d5       ! cm/s
+
 v_emit(3)  = 100.d5     ! cm/s
 v_emit(4)  = 200.d5     ! cm/s
 v_emit(5)  = 300.d5
@@ -176,9 +178,9 @@ N_atom(25) = 7.9d16	! cm^-2
 itau_d = 1
 
 
-do iv_emit = 3,3  ! w/o_s = 15 , w/ = 1 - 6
-do iv_ran = 1,3  ! w/o_s = 15,  w/ = 1 - 6
-do iv_exp =1,1    ! w/o_s = 1 ,  w/ = 1 - 8  
+do iv_emit = 1,2  ! w/o_s = 15 , w/ = 1 - 6
+do iv_ran = 2,3  ! w/o_s = 15,  w/ = 1 - 6
+do iv_exp =1,11    ! w/o_s = 1 ,  w/ = 1 - 8  
 do iN_atom = 1,1
 
 

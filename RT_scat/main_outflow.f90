@@ -188,7 +188,7 @@ do iN_atom = 1,1
 
 call set_escape_observer()
 call set_dust('dust_data/MW_C_IV.dat')
-	write(fn_model,100) 'data_CIV_w_o_v/N_atom',N_atom(iN_atom), &
+	write(fn_model,100) 'data_L46/N_atom',N_atom(iN_atom), &
 					'_Vexp', v_exp(iv_exp)/1e5, &
 					'_Vemit', v_emit(iv_emit)/1e5, &
 					'_tauD', tau_d(itau_d), &

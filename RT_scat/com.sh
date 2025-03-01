@@ -5,5 +5,5 @@
 
 
 
-mpiifort -cpp -DMPI -c *_mod.f90
-mpiifort -cpp -DMPI -o CIV.out main_outflow.f90 *.o
+mpiifx -cpp -DMPI -c *_mod.f90
+mpiifx -cpp -DMPI -o CIV.out main_outflow.f90 *.o

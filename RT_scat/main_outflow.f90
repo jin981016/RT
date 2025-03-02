@@ -107,7 +107,7 @@ v_exp(3)  = 200.d5	! cm/s
 v_exp(4)  = 300.d5	! cm/s
 v_exp(5)  = 400.d5
 v_exp(6)  = 500.d5	! cm/s
-v_exp(7)  = 6000.d5	! cm/s
+v_exp(7)  = 600.d5	! cm/s
 v_exp(8)  = 700.d5
 v_exp(9)  = 800.d5      ! cm/s
 v_exp(10)  = 900.d5      ! cm/s
@@ -180,7 +180,7 @@ itau_d = 1
 
 do iv_emit = 1,2  ! w/o_s = 15 , w/ = 1 - 6
 do iv_ran = 2,3  ! w/o_s = 15,  w/ = 1 - 6
-do iv_exp =1,11    ! w/o_s = 1 ,  w/ = 1 - 8  
+do iv_exp =7,7    ! w/o_s = 1 ,  w/ = 1 - 8  
 do iN_atom = 1,1
 
 

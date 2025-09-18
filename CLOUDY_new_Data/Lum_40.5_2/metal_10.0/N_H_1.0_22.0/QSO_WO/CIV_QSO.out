@@ -1,0 +1,200 @@
+                                                          Cloudy 17.03
+                                                         www.nublado.org
+
+                       **************************************17Jun01**************************************
+                       *                                                                                 *
+                       * title CIV QSO                                                                   *
+                       * set punch prefix "CIV_QSO"                                                      *
+                       * radius = 21.500 23.500                                                          *
+                       * iterate to convergence                                                          *
+                       * sphere                                                                          *
+                       * init "dlaw_HI_exp.ini"                                                          *
+                       * dlaw table                                                                      *
+                       * table SED "QSO.sed"                                                             *
+                       * no line transfer                                                                *
+                       * nuL(nu) = 40.5 at 1 Ryd                                                         *
+                       * stop temperature off                                                            *
+                       * metals 10.0                                                                     *
+                       * save last radius ".rad"                                                         *
+                       * save last continuum ".cont"                                                     *
+                       * save last physical conditions ".phy"                                            *
+                       * save last overview ".ovr"                                                       *
+                       * save last heating ".heat"                                                       *
+                       * save last cooling ".cool"                                                       *
+                       * save last optical depth ".opd"                                                  *
+                       * save last element hydrogen ".ele_H"                                             *
+                       * save last element helium ".ele_He"                                              *
+                       * save last element carbon ".ele_C"                                               *
+                       * save last element nitrogen ".ele_N"                                             *
+                       * save last element oxygen ".ele_O"                                               *
+                       * save last element argon ".ele_Ar"                                               *
+                       * save last element neon ".ele_Ne"                                                *
+                       * save last element sulphur ".ele_S"                                              *
+                       * save last element chlorin ".ele_Cl"                                             *
+                       * save last element iron ".ele_Fe"                                                *
+                       * save last element silicon ".ele_Si"                                             *
+                       * save last lines emissivity  ".emis"                                             *
+                       *                                                                                 *
+                       ***********************************************************************************
+
+
+
+ NOTE NO LINE TRANSER set but fine opacities still computed.
+ NOTE Turning off fine opacities.
+
+
+ NOTE
+ NOTE The simulation is going into neutral gas but cosmic rays are not included.
+ NOTE Ion-molecule chemistry will not occur without a source of ionization.
+ NOTE The chemistry network may collapse deep in molecular regions.
+ NOTE Consider adding galactic background cosmic rays with the COSMIC RAYS BACKGROUND command.
+ NOTE You may be making a BIG mistake.
+ NOTE
+
+
+
+ NOTE Setcon: continuum has zero intensity starting at  3.0447e-09 Ryd.
+  3800 cells in the incident continuum have zero intensity.  Problems???
+
+           8228CellPeak1.00E+00   Lo 3.04e-09=  29.98m   Hi-Con:7.13E+06 Ryd   E(hi):7.35E+06Ryd     E(hi):     100.00 MeV
+           L(nu>1ryd):  40.6904   Average nu:2.632E+00   L( X-ray):  39.9171   L(BalC):  40.6154     Q(Balmer C):  51.5776
+           Q(1.0-1.8):  50.7340   Q(1.8-4.0):  50.3640   Q(4.0-20):  49.8799   Q(20--):  48.7166     Ion pht flx:6.798E+06
+           L(gam ray):  39.0061   Q(gam ray):  45.4900   L(Infred):  40.8499   Alf(ox):  -1.5331     Total lumin:  41.2070
+           log L/Lsun:   7.6240   Abs bol mg: -14.3174   Abs V mag: -11.8781   Bol cor:  -2.4394     nuFnu(Bbet):  40.4467
+           U(1.0----):3.018E-03   U(4.0----):2.863E-04   T(En-Den):1.542E+00   T(Comp):2.661E+06     nuJnu(912A):2.516E-04
+           Occ(FarIR):0.000E+00   Occ(H n=6):1.045E-14   Occ(1Ryd):1.161E-20   Occ(4R):1.703E-23     Occ (Nu-hi):0.000E+00
+           Tbr(FarIR):0.000E+00   Tbr(H n=6):4.575E-11   Tbr(1Ryd):1.833E-15   Tbr(4R):1.078E-17     Tbr (Nu-hi):0.000E+00
+  
+                                                  Gas Phase Chemical Composition
+        H :  0.0000  He: -1.0000  Li: -7.6904  Be: -9.5800  B : -8.2097  C : -2.6108  N : -3.0701  O : -2.3098  F : -6.5200
+        Ne: -3.0000  Na: -4.6696  Mg: -3.4597  Al: -4.5302  Si: -3.4597  P : -5.4949  S : -3.7352  Cl: -5.7190  Ar: -4.6003
+        K : -5.8794  Ca: -4.6402  Sc: -7.8297  Ti: -5.9788  V : -7.0000  Cr: -5.3298  Mn: -5.5406  Fe: -3.5498  Co: -6.0799
+                                               Ni: -4.7496  Cu: -6.7905  Zn: -6.4001
+ 
+ ####  1  Te:6.351E+02 Hden:7.515E-02 Ne:8.478E-02 R:3.162E+21 R-R0:6.757E+16 dR:1.351E+17 NTR:  6 Htot:2.384E-25 T912: 1.00e+08###
+ Hydrogen      1.33e-02 9.87e-01 H+o/Hden 1.00e+00 6.17e-11 H-    H2 3.34e-12 1.54e-12 H2+ HeH+ 5.15e-10 Ho+ ColD 1.35e+14 1.00e+16
+ Helium        1.83e-02 7.24e-01 2.58e-01 HeI 2s3S 6.48e-10 Comp H,C 1.28e-31 3.07e-35 Fill Fac 1.00e+00 Gam1/tot 1.00e+00
+ He singlet n  1.83e-02 4.06e-17 9.50e-24 2.95e-23 6.28e-24 1.14e-22 He tripl 6.48e-10 6.00e-21 1.13e-22 1.11e-21 3.19e-22
+ Pressure      NgasTgas 1.07e+02 P(total) 1.48e-14 P( gas ) 1.48e-14 P(Radtn) 0.00e+00 Rad accl 2.17e-10 ForceMul 1.79e+04
+ Texc(La)      2.63e+03 T(I con) 1.54e+00 T(D con) 1.66e-01 T(U tot) 1.54e+00 nT (c+d) 4.13e+05 Prad/Gas 0.00e+00 Pmag/Gas 0.00e+00
+ Molecules     CH/Ctot: 2.28e-14 CH+/Ctot 2.80e-13 CO/Ctot: 3.06e-16 CO+/Ctot 5.86e-17 H2O/Otot 6.64e-26 OH/Ototl 6.81e-14
+ Lithium       4.64e-03 7.96e-01 1.96e-01 3.18e-03 Berylliu 2.94e-03 1.97e-01 7.83e-01 1.67e-02 2.79e-05 sec ion: 3.16e-16
+ Boron         5.54e-04 2.57e-01 5.87e-01 1.55e-01 4.00e-04 0.00e+00
+ Carbon        4.47e-04 1.53e-01 7.66e-01 7.71e-02 2.84e-03 0.00e+00 0.00e+00 H2O+/O   2.53e-27 OH+/Otot 5.08e-14 Hex(tot) 0.00e+00
+ Nitrogen      1.23e-03 1.92e-01 6.48e-01 1.53e-01 5.67e-03 4.72e-05 0.00e+00 0.00e+00 O2/Ototl 1.61e-18 O2+/Otot 2.45e-19
+ Oxygen        2.43e-03 2.34e-01 6.45e-01 1.17e-01 1.30e-03 1.67e-05 0.00e+00 0.00e+00 0.00e+00
+ Fluorine      6.73e-04 1.02e-01 8.42e-01 5.28e-02 2.30e-03 1.25e-05 0.00e+00 0.00e+00 0.00e+00 0.00e+00
+ Neon          1.40e-03 1.59e-01 7.56e-01 8.19e-02 1.61e-03 8.70e-06 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00
+ Sodium        2.16e-03 1.42e-01 5.80e-01 2.50e-01 2.63e-02 1.19e-05 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00
+ Magnesium     2.87e-03 1.51e-01 7.08e-01 1.34e-01 3.12e-03 3.86e-05 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00
+ Aluminium  0  5.03e-05 1.78e-01 4.33e-01 3.59e-01 3.00e-02 3.53e-04 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00
+ Silicon    0  3.01e-03 6.34e-01 1.50e-01 1.95e-01 1.82e-02 1.78e-04 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00
+ Phosphorus 0  9.48e-04 4.15e-01 4.52e-01 1.09e-01 2.12e-02 1.87e-03 3.85e-06 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00
+ Sulphur    0  1.83e-04 2.50e-01 6.62e-01 8.06e-02 5.92e-03 9.93e-04 5.51e-05 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00
+ Chlorine   0  2.78e-04 1.59e-01 6.74e-01 1.55e-01 1.13e-02 5.65e-04 6.72e-05 1.41e-06 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00
+ Argon      0  7.96e-05 4.48e-02 8.04e-01 1.41e-01 1.03e-02 4.23e-04 2.00e-05 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00
+ Potassium  0  7.04e-04 1.93e-01 6.35e-01 1.55e-01 1.57e-02 5.60e-04 1.79e-05 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00
+ Calcium    0  3.51e-04 9.23e-02 5.99e-01 2.86e-01 2.17e-02 7.23e-04 3.40e-05 1.27e-06 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00
+ Scandium   0  1.89e-05 7.23e-03 2.14e-01 7.32e-01 4.56e-02 1.19e-03 5.64e-05 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00
+ Titanium   0  2.15e-05 3.90e-02 2.17e-01 7.12e-01 3.12e-02 7.54e-04 3.77e-05 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00
+ Vanadium   0  1.08e-04 3.02e-02 4.73e-01 3.27e-01 1.64e-01 5.50e-03 7.59e-05 3.55e-06 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00
+ Chromium   0  3.46e-05 2.61e-02 4.94e-01 3.80e-01 8.87e-02 1.04e-02 2.21e-04 2.35e-06 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00
+ Manganese  0  1.76e-05 2.73e-02 3.67e-01 4.33e-01 1.61e-01 1.16e-02 3.05e-04 4.22e-06 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00
+ Iron       0  3.59e-06 9.41e-03 1.27e-01 5.60e-01 2.78e-01 2.49e-02 3.62e-04 9.36e-06 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00
+ Cobalt     0  1.30e-05 2.04e-03 9.50e-02 4.10e-01 4.48e-01 4.18e-02 3.09e-03 4.78e-05 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00
+ Nickel     0  6.22e-06 6.56e-03 2.20e-01 2.92e-01 4.21e-01 5.59e-02 3.63e-03 6.82e-05 0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00
+ Copper     0  1.15e-05 3.44e-03 2.87e-01 5.11e-01 1.68e-01 2.79e-02 2.05e-03 1.17e-04 1.48e-06 0.00e+00 0.00e+00 0.00e+00 0.00e+00
+ Zinc       0  7.32e-06 8.66e-04 3.45e-02 3.14e-01 5.63e-01 8.10e-02 6.19e-03 3.74e-04 5.38e-06 0.00e+00 0.00e+00 0.00e+00 0.00e+00
+
+
+ PROBLEM DISASTER - the kinetic temperature, 2.776e+00K, is below the lower limit of the code, 2.800e+00K.
+ Consider setting a lowest temperature with the SET TEMPERATURE FLOOR command.
+ This calculation is aborting.
+ Sorry.
+
+ This is often due to mixing luminosity/intensity commands, having an unphysical SED, or too high a flux of cosmic rays.
+ To find the problem, try setting a constant temperature (and STOP ZONE 1), rerun the model, and check the output to find what is happening.
+
+
+
+
+ PROBLEM DISASTER
+ An assert has been thrown, this is bad.
+ Failed: !conv.lgFirstSweepThisZone
+ It happened in the file rt_tau_inc.cpp at line number 50
+ This is iteration 1, nzone 544, fzone 544.00, lgSearch=F.
+
+
+
+           vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv 
+          > PROBLEM DISASTER PROBLEM DISASTER.      <
+          > Sorry, something bad has happened.      <
+          > Please post this on the Cloudy web site <
+          > discussion board at www.nublado.org     <
+          > Please send all following information:  <
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+
+
+ Cloudy version number is 17.03
+ Cloudy compiled on Aug 20 2025 in OS Linux (AMD64) using the g++ 110400 compiler. Mode I32LP64, denormalized float: F double: F.
+
+    0 warnings,  0 cautions,  0 temperature failures.  Messages follow.
+ Input commands follow:
+c ======================
+title CIV QSO
+set punch prefix "CIV_QSO"
+radius = 21.500 23.500
+iterate to convergence
+sphere
+init "dlaw_HI_exp.ini"
+table SED "QSO.sed"
+no line transfer
+nuL(nu) = 40.5 at 1 Ryd
+stop temperature off
+metals 10.0
+save last radius ".rad"
+save last continuum ".cont"
+save last physical conditions ".phy"
+save last overview ".ovr"
+save last heating ".heat"
+save last cooling ".cool"
+save last optical depth ".opd"
+save last element hydrogen ".ele_H"
+save last element helium ".ele_He"
+save last element carbon ".ele_C"
+save last element nitrogen ".ele_N"
+save last element oxygen ".ele_O"
+save last element argon ".ele_Ar"
+save last element neon ".ele_Ne"
+save last element sulphur ".ele_S"
+save last element chlorin ".ele_Cl"
+save last element iron ".ele_Fe"
+save last element silicon ".ele_Si"
+save last lines emissivity  ".emis"
+H  1  1215.67A
+H  1  1025.72A
+H  1  4861.33A
+H  1  6562.81A
+O  6  1031.91A
+O  6  1037.62A
+He 2  949.31A
+He 2  972.108A
+He 2  1025.27A
+He 2  1640.43A
+He 2  4859A
+He 2  4339A
+He 2  6527A
+He 2  6560A
+C  4  1550.78
+O  3  5006.84A
+N  5  1238.82
+N  5  1242.80
+c  4  1548.19
+c  4  1550.78
+mg 2  2795.53
+mg 2  2802.71
+end of lines
+c ======================
+ This input stream included one or more init files.
+ If these files are not part of the standard Cloudy distribution
+ then I will need a copy of them too.

@@ -191,10 +191,10 @@ N_atom(25) = 7.9d16	! cm^-2
 itau_d = 1
 
 
-do iv_emit = 6,9 ! test = 1, Nebula = 2 - 8 , QSO = 6-8
-do iv_ran = 1,4 ! test = 1 , Nebula,QSO = 2 - 4 
-do iv_exp = 1,1    ! test = 1 , Nebula,QSO = 2 - 9  
-do iN_atom = 2,2  ! test = 1 , Nebula = 2, QSO = 3, AGN_con = 4 , Flat = 5
+do iv_emit = 6,8 ! test = 1, Nebula = 2 - 8 , QSO = 6-8
+do iv_ran = 2,4 ! test = 1 , Nebula,QSO = 2 - 4 
+do iv_exp = 2,9    ! test = 1 , Nebula,QSO = 2 - 9  
+do iN_atom = 5,5  ! test = 1 , Nebula = 2, QSO = 3, Flat=4, AGN_con = 5 
 
 
 
@@ -204,7 +204,7 @@ basename = 'WOCIVL440M1NH220'
 call initialize_data('WOCIVL440M1NH220.txt') ! 내가 추가한 term + 변경해야할 곳
 call set_escape_observer()
 call set_dust('dust_data/MW_C_IV.dat')
-	write(fn_model,100) 'N_spec_3e4/N_atom',N_atom(iN_atom), &
+	write(fn_model,100) 'WOCIVL440M1NH220/N_atom',N_atom(iN_atom), &
 					'_Vexp', v_exp(iv_exp)/1e5, &
 					'_Vemit', v_emit(iv_emit)/1e5, &
 					'_tauD', tau_d(itau_d), &
@@ -303,8 +303,8 @@ call init_random_seed()
         if (status(MPI_TAG) .eq.  0) exit
 	ans = 1
 	
-        call gen_photon_cloudy_QSO(photon,v_emit(iv_emit))  ! 변경 _cloudy_Nebula or _cloudy_QSO or Gaussian or AGN_con
-	!call gen_photon_flat(photon) ! 변경 AGN_con 
+        !call gen_photon_cloudy_QSO(photon,v_emit(iv_emit))  ! 변경 _cloudy_Nebula or _cloudy_QSO or Gaussian or AGN_con
+	call gen_photon_AGN_con(photon) ! 변경 AGN_con or flat 
         call peeling_off_direct_metal(photon)
 
 		do 608

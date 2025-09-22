@@ -22,7 +22,7 @@ call create_shared_mem( escape%NS_atom, [2])
 call create_shared_mem( escape%NS_dust, [2])
 call create_shared_mem( escape%path, [2])
 call create_shared_mem( escape%Nclump, [2])
-escape%nspec_total = 1.5e4
+escape%nspec_total = 1.5e3
 call create_shared_mem( escape%spec_total, [2,escape%nspec_total])
 call create_shared_mem( escape%spec_scat , [2,escape%nspec_total])
 
@@ -32,8 +32,8 @@ escape%wlmin(2) = atom%wlH*1.0d8 - escape%dwl
 escape%wlmax(1) = atom%wlK*1.0d8 + escape%dwl
 escape%wlmax(2) = atom%wlH*1.0d8 + escape%dwl
 
-escape%dwl = 50.d0
-escape%nspec = 3e4 
+escape%dwl = 5.d0
+escape%nspec = 3e3 
 ! total, scat, halo
 call create_shared_mem( escape%spec   , [2,escape%nspec])
 call create_shared_mem( escape%Q_spec , [2,escape%nspec])

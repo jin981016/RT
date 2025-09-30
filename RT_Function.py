@@ -296,6 +296,19 @@ def K_H_from_Combine_data_com(z_red_Shift,v_out, v_emit, v_rand, Geometry, atom,
 
 
 
+def QSO_SED(path):
+    file_name_w = os.path.join(path, f'QSO.sed')
+    file_w = pd.read_csv(
+    file_name_w,
+    comment='#',
+    sep=r'\s+',
+    engine='python',
+    header=None,
+    names=['Ryd', 'nufnu']
+    )
+    Ryd_w, nufnu_w = file_w['Ryd'].to_numpy(), file_w['nufnu'].to_numpy()
+    return  Ryd_w, nufnu_w
+
 
 
 

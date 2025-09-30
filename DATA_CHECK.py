@@ -15,6 +15,7 @@ from astropy.constants import h, c
 import astropy.units as u
 from scipy import special
 import matplotlib.gridspec as gridspec
+from scipy.interpolate import interp1d
 
 warnings.filterwarnings('ignore', category=IntegrationWarning)
 
@@ -26,7 +27,8 @@ Ly_a_K = 1215.673644609e-8
 Ly_a_H = 1215.668237310e-8
 C_IV_K = 1548.187e-8
 C_IV_H = 1550.772e-8
-
+C_IV_K_A = 1548.187e-8
+C_IV_H_A = 1550.772
 
 # data_path = 
 
@@ -44,7 +46,18 @@ def calculate_order_and_value(value):
 
     return int(value / 10), 3
 
+def _infer_multi_factor_from_column_density_order(Column_density_order):
+    try:
+        val = float(Column_density_order)
+    except Exception:
+        raise ValueError("Column_density_order must be convertible to float (e.g., 20.0 or 20.5)")
 
+    fractional_part = abs(val - np.floor(val))
+    if np.isclose(fractional_part, 0.0, atol=1e-6):
+        return 1.0
+    if np.isclose(fractional_part, 0.5, atol=1e-6):
+        return 3.2
+    raise ValueError("Only xx.0 or xx.5 are supported for Column_density_order to infer multi_factor")
 
 
 
@@ -143,19 +156,20 @@ def spec(path , line):
     path = f'{path}spec.dat'
     try:
         data = pd.read_csv(path, sep='\s+', header=None)
+        print("v_rand = 11.8 km/s")
     except:
         print('파일을 찾을 수 없습니다.',path)
 
-
+    vran = 11.8 #kms
     x = data[0].to_numpy()
     try:
         if line == 'h' or line == 'H':
-            lam = -  C_IV_H_A / ( (vran/cc_k)*x -1)
+            lam = -  C_IV_H_A / ( (vran/c_kms)*x -1)
             spec_tot = data[2].to_numpy()
             spec_scat = data[4].to_numpy()
 
         elif line == 'k' or line == 'K':
-            lam = - C_IV_K_A / ( (vran/cc_k)*x -1)
+            lam = - C_IV_K_A / ( (vran/c_kms)*x -1)
             spec_tot = data[1].to_numpy()
             spec_scat = data[3].to_numpy()
         else:
@@ -209,8 +223,9 @@ def f_esc(path):
     
 
 
-def K_H_from_spec_com(path,line):
+def K_H_from_spec_com(path,Line):
     lam , spec_tot , spec_halo =  spec_com(path)
+    lam_c =  (C_IV_K_A + C_IV_H_A) / 2
     if Line == 'k' or Line =='K':
         ioc = np.where(lam<=lam_c)[0]
         lam_x = lam[ioc]
@@ -232,20 +247,20 @@ def K_H_from_spec_com(path,line):
 
 
 def RT_SB(path):
-    path = f'{path}radi.dat'
+    path_sb = f'{path}radi.dat'
     """RT 산출물에서 Surface Brightness 데이터를 읽어오는 함수"""
-    if not os.path.exists(path):
-        print(f"Warning: RT file not found: {path}")
+    if not os.path.exists(path_sb):
+        print(f"Warning: RT file not found: {path_sb}")
         return None
     
     try:
         name = ['radius','SB_K','SB_H','SB_tot','1','2','3']
-        data_sp = pd.read_csv(path, sep='\s+', header=None,names=name)
+        data_sp = pd.read_csv(path_sb, sep='\s+', header=None,names=name)
         rad, SB_t, SB_k,SB_h =  data_sp['radius'].to_numpy(),data_sp['SB_tot'].to_numpy(),data_sp['SB_K'].to_numpy(),data_sp['SB_H'].to_numpy()
         print('radius, rdius[kpc], Surface_Brightness_Total')
         return rad*100, rad*100*kpc, SB_t 
     except Exception as e:
-        print(f"Error reading RT file {path}: {e}")
+        print(f"Error reading RT file {path_sb}: {e}")
         return None 
 
 
@@ -357,6 +372,20 @@ def SB(z, radius_kpc, emissivity, dr):
     Lumin, _ = quad(lumin_integrand, 0, r_max)
     
     return Project_R / kpc, surface_brightness, Lumin
+
+def QSO_SED(path_way):
+    file_name_w = os.path.join(path_way, f'QSO.sed')
+    file_w = pd.read_csv(
+    file_name_w,
+    comment='#',
+    sep=r'\s+',
+    engine='python',
+    header=None,
+    names=['Ryd', 'nufnu']
+    )
+    Ryd_w, nufnu_w = file_w['Ryd'].to_numpy(), file_w['nufnu'].to_numpy()
+    return  Ryd_w, nufnu_w
+
 
 
 def CLOUDY_data_path(path_way):

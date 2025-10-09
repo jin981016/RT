@@ -257,7 +257,7 @@ def RT_SB(path):
         name = ['radius','SB_K','SB_H','SB_tot','1','2','3']
         data_sp = pd.read_csv(path_sb, sep='\s+', header=None,names=name)
         rad, SB_t, SB_k,SB_h =  data_sp['radius'].to_numpy(),data_sp['SB_tot'].to_numpy(),data_sp['SB_K'].to_numpy(),data_sp['SB_H'].to_numpy()
-        print('radius, rdius[kpc], Surface_Brightness_Total')
+        # print('radius, rdius[kpc], Surface_Brightness_Total')
         return rad*100, rad*100*kpc, SB_t 
     except Exception as e:
         print(f"Error reading RT file {path_sb}: {e}")

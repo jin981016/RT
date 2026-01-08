@@ -1,3 +1,4 @@
+from astropy.coordinates.representation import geodetic
 import numpy as np                                                                        
 import matplotlib.pyplot as plt
 import pyCloudy as pc
@@ -76,7 +77,7 @@ def Data_path(path,style, atom_num, atom_index , V_out, V_emit, V_rand) :
 
 
 
-def RT_CLOUDY_path(path,style,v_out, v_emit, v_rand, geo, atom, Lumin,idx,metals,Column_density_order):
+def RT_CLOUDY_path(path,v_out, v_emit, v_rand, geo, atom, Lumin,idx,metals,Column_density_order):
 
     if v_out == 0:
         expand, vout_order = "000", 0
@@ -94,15 +95,24 @@ def RT_CLOUDY_path(path,style,v_out, v_emit, v_rand, geo, atom, Lumin,idx,metals
 
     lum = int(Lumin * 10)
 
-    # if Geometry.upper() == 'NEBULA' :
-    #     geo  = 2 
-    # elif Geometry.upper() == 'QSO' :
-    #     geo = 3
-    # elif Geometry.upper() == 'Continuum' :
-    #     geo = 4
-    # else : geo =1 # Test
+# geo 변수의 타입을 먼저 확인하고 처리
+    if isinstance(geo, str):
+        geo_upper = geo.upper()
+        if geo_upper == 'NEBULA':
+            geo = 2
+        elif geo_upper == 'QSO':
+            geo = 3
+        elif geo_upper == 'CONTINUUM':
+            geo = 4
+        elif geo_upper == 'TEST':
+            geo = 1
+    elif isinstance(geo, int):
+        # 이미 숫자인 경우 그대로 사용 (유효성 검사 추가 가능)
+        if geo not in [1, 2, 3, 4]:
+            raise ValueError(f"Invalid geo value: {geo}")
+    else:
+        raise TypeError(f"geo must be string or int, got {type(geo)}")
 
-    
     if idx == 1 :
         mode='W'
     else : mode = 'WO'
@@ -115,8 +125,8 @@ def RT_CLOUDY_path(path,style,v_out, v_emit, v_rand, geo, atom, Lumin,idx,metals
     else:
         metals_str = str(int(metals))     # 1.0 → '1', 2.0 → '2'
 
-    if style.upper() =='CLOUDY' :
-        path = f'{path}/{mode}{atom}L{lum}M{metals_str}NH{col}'
+    # if style.upper() =='CLOUDY' :
+    path_tt = f'{path}/{mode}{atom}L{lum}M{metals_str}NH{col}'
 
     # folder_path = f'{path}{folder_name}'
 
@@ -125,7 +135,7 @@ def RT_CLOUDY_path(path,style,v_out, v_emit, v_rand, geo, atom, Lumin,idx,metals
     #                 f'Vexp000E+00_Vemit100E+00_'
     #                 f'tauD000E+00_Vran000E+00{style}')      
     # else :
-    path_rt = (f'{path}/N_atom{geo}00E+10_'
+    path_rt = (f'{path_tt}/N_atom{geo}00E+10_'
                 f'Vexp{expand}E+0{vout_order}_Vemit{emit}E+0{emit_order}_'
                 f'tauD000E+00_Vran{rand}E+0{rand_order}')      
 
@@ -248,6 +258,7 @@ def K_H_from_spec_com(path,Line):
 
 def RT_SB(path):
     path_sb = f'{path}radi.dat'
+    # print(path_sb)
     """RT 산출물에서 Surface Brightness 데이터를 읽어오는 함수"""
     if not os.path.exists(path_sb):
         print(f"Warning: RT file not found: {path_sb}")
@@ -333,13 +344,13 @@ def CLOUDY_path(Lumin,idx,metals,Column_density_order):
         dir_order_str = str(Column_density_order)
 
     # path_CIV = f"/home/jin/RT/Test_CLOUDY/Lum_{Lumin}_{idx}/metal_{metals}/N_H_{multi_factor}_{dir_order_str}/QSO_WO"
-    path_way = f'/home/jin/RT/CLOUDY_new_Data/Lum_{Lumin}_{idx}/metal_{metals}/N_H_{multi_factor}_{dir_order_str}/QSO_WO'
+    path_way = f'/home/jin/CLOUDY_new_Data/Lum_{Lumin}_{idx}/metal_{metals}/N_H_{multi_factor}_{dir_order_str}/QSO_WO'
 
     # path_CIV = os.path.join(path_way, f'QSO_{mode}/CIV_QSO')
     return path_way
 def SB(z, radius_kpc, emissivity, dr):
     r_min, r_max = radius_kpc.min(), radius_kpc.max()
-    Project_R = np.linspace(0, 100, 80) * kpc
+    Project_R = np.linspace(0, 100, 70) * kpc
     N = len(Project_R)
     surface_brightness = np.zeros(N)
     Lumin = np.zeros(N)
@@ -359,17 +370,17 @@ def SB(z, radius_kpc, emissivity, dr):
         surface_brightness[ii], _ = quad(integrand, R, r_max)
         surface_brightness[ii] *= 2 / (1+z)**4
     dR =  Project_R[1] - Project_R[0]    
-    def lumin_integrand(R):
-        if R == 0 :
-            area = np.pi * (0.5*dR)**2
-        elif R == r_max:
-            area = np.pi * (2*R +0.5*dR)*0.5*dR 
-        else:
-            area = 2 * np.pi * R * np.interp(R, Project_R, surface_brightness)
+    # def lumin_integrand(R):
+    #     if R == 0 :
+    #         area = np.pi * (0.5*dR)**2
+    #     elif R == r_max:
+    #         area = np.pi * (2*R +0.5*dR)*0.5*dR 
+    #     else:
+    #         area = 2 * np.pi * R * np.interp(R, Project_R, surface_brightness)
         
-        return area
-    
-    Lumin, _ = quad(lumin_integrand, 0, r_max)
+    #     return area
+    # Lumin, _ = quad(lumin_integrand, 0, r_max)
+    Lumin = np.trapz(2 * np.pi * Project_R * surface_brightness, Project_R)
     
     return Project_R / kpc, surface_brightness, Lumin
 
@@ -390,6 +401,7 @@ def QSO_SED(path_way):
 
 def CLOUDY_data_path(path_way):
     path_CIV = os.path.join(path_way, f'CIV_QSO')
+    # print(path_CIV )
     Mod = pc.CloudyModel(path_CIV)
     Mod.ionic_names
     N_H = sum(Mod.dr*Mod.nH)
@@ -409,7 +421,7 @@ def CLOUDY_data_path(path_way):
     N_CIV = frac_C*sum(Mod.dr*Mod.nH*Mod.get_ionic('C',3))
 
     num = len(Mod.nH)
-    r_CIV = path_way +  '.ele_C'
+    r_CIV = path_CIV +  '.ele_C'
     f = open(r_CIV,'r')
     header = f.readline()
     CIV_frac = np.zeros(num)
@@ -421,7 +433,7 @@ def CLOUDY_data_path(path_way):
         CIV_frac[i] = j
         i = i + 1
 
-    r_CIV = path_way +  '.ele_C'
+    r_CIV = path_CIV +  '.ele_C'
     f = open(r_CIV,'r')
     header = f.readline()
     CV_frac = np.zeros(num)
@@ -433,7 +445,7 @@ def CLOUDY_data_path(path_way):
         CV_frac[i] = j
         i = i + 1
 
-    r_CIV = path_way +  '.ele_C'
+    r_CIV = path_CIV +  '.ele_C'
     f = open(r_CIV,'r')
     header = f.readline()
     CIII_frac = np.zeros(num)
@@ -445,7 +457,7 @@ def CLOUDY_data_path(path_way):
         CIII_frac[i] = j
         i = i + 1
 
-    r_He = path_way +  '.ele_He'
+    r_He = path_CIV +  '.ele_He'
     f = open(r_He,'r')
     header = f.readline()
     HeII_frac = np.zeros(num)
@@ -457,7 +469,7 @@ def CLOUDY_data_path(path_way):
         HeII_frac[i] = j
         i = i + 1
 
-    r_He = path_way +  '.ele_He'
+    r_He = path_CIV +  '.ele_He'
     f = open(r_He,'r')
     header = f.readline()
     HeIII_frac = np.zeros(num)
@@ -469,7 +481,7 @@ def CLOUDY_data_path(path_way):
         HeIII_frac[i] = j
         i = i + 1
         
-    r_He = path_way +  '.ele_He'
+    r_He = path_CIV +  '.ele_He'
     f = open(r_He,'r')
     header = f.readline()
     HeI_frac = np.zeros(num)
@@ -483,7 +495,7 @@ def CLOUDY_data_path(path_way):
 
 
 
-    r_H = path_way +  '.ele_H'
+    r_H = path_CIV +  '.ele_H'
     f = open(r_H,'r')
     header = f.readline()
     HII_frac = np.zeros(num)
@@ -495,7 +507,7 @@ def CLOUDY_data_path(path_way):
         HII_frac[i] = j
         i = i + 1
 
-    r_H = path_way +  '.ele_H'
+    r_H = path_CIV +  '.ele_H'
     f = open(r_H,'r')
     header = f.readline()
     HI_frac = np.zeros(num)

@@ -60,8 +60,8 @@ def path(Lumin,idx,metals,Column_density_order):
     else:
         dir_order_str = str(Column_density_order)
 
-    path_CIV = f"/home/jin/Test_CLOUDY/Lum_{Lumin}_{idx}/metal_{metals}/N_H_{multi_factor}_{dir_order_str}/QSO_WO"
-    path_way = f'/home/jin/CLOUDY_new_Data/Lum_{Lumin}_{idx}/metal_{metals}/N_H_{multi_factor}_{dir_order_str}/QSO_WO'
+    path_CIV = f"/home/jin/RT/Test_CLOUDY/Lum_{Lumin}_{idx}/metal_{metals}/N_H_{multi_factor}_{dir_order_str}/QSO_WO"
+    path_way = f'/home/jin/RT/CLOUDY_new_Data/Lum_{Lumin}_{idx}/metal_{metals}/N_H_{multi_factor}_{dir_order_str}/QSO_WO'
 
     # path_CIV = os.path.join(path_way, f'QSO_{mode}/CIV_QSO')
     return path_way

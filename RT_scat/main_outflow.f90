@@ -104,21 +104,22 @@ tau_D(1) = 0.d0
 
 v_exp(1)  = 000.d5	! cm/s
 v_exp(2)  = 100.d5
-v_exp(3)  = 500.d5	! cm/s
+v_exp(3)  = 200.d5	! cm/s
 v_exp(4)  = 300.d5	! cm/s
-v_exp(5)  = 700.d5
-v_exp(6)  = 800.d5	! cm/s
-v_exp(7)  = 1000.d5	! cm/s
-v_exp(8)  = 2000.d5
-v_exp(9)  = 3000.d5 ! cm/s
+v_exp(5)  = 400.d5
+v_exp(6)  = 500.d5	! cm/s
+v_exp(7)  = 600.d5	! cm/s
+v_exp(8)  = 700.d5
+v_exp(9)  = 800.d5 ! cm/s
 
 v_exp(10)  = 900.d5      ! cm/s
 v_exp(11)  = 1000.d5
 
-v_exp(12)  = 2000.d5
-v_exp(13)  = 3000.d5
-v_exp(14)  = 50.d5
-v_exp(15)  = 1.d5
+v_exp(12)  = 1500.d5
+v_exp(13)  = 2000.d5
+v_exp(14)  = 3000.d5
+v_exp(15)  = 50.d5
+
 v_exp(16)  = 50.d5
 
 !v_exp(12)  = 1000.d5
@@ -134,8 +135,9 @@ v_emit(5)  = 500.d5     ! cm/s
 
 v_emit(6)  = 1000.d5
 v_emit(7)  = 2000.d5     ! cm/s
-v_emit(8)  = 3000.d5  
-v_emit(9) = 1.d5
+
+v_emit(8)  = 5000.d5  
+v_emit(9) = 10000.d5
 
 
 
@@ -151,12 +153,18 @@ v_emit(12) = 1000.d5
 !v_emit(12)  = 1000.d5     ! cm/s
 !v_emit(13) = 2000.d5
 
-N_atom(1) = 1.d10 !cm^-2
+N_atom(1) = 1.d12 !cm^-2
+N_atom(2) = 1.d16
 
-N_atom(2) = 2.d10	! cm^-2
-N_atom(3) = 3.d10	! cm^-2
-N_atom(4) = 4.d10	! cm^-2
-N_atom(5) = 5.d10	! cm^-2
+
+N_atom(3) = 1.d13       ! cm^-2
+N_atom(4) = 1.d14       ! cm^-2
+N_atom(5) = 1.d15       ! cm^-2
+
+!N_atom(2) = 2.d10	! cm^-2
+!N_atom(3) = 3.d10	! cm^-2
+!N_atom(4) = 4.d10	! cm^-2
+!N_atom(5) = 5.d10	! cm^-2
 
 
 N_atom(6) = 1.d17      ! cm^-2
@@ -191,20 +199,20 @@ N_atom(25) = 7.9d16	! cm^-2
 itau_d = 1
 
 
-do iv_emit = 6,8 ! test = 1, Nebula = 2 - 8 , QSO = 6-8
+do iv_emit = 8,9 ! test = 1, Nebula = 2 - 8 , QSO = 6-8
 do iv_ran = 2,4 ! test = 1 , Nebula,QSO = 2 - 4 
-do iv_exp = 2,9    ! test = 1 , Nebula,QSO = 2 - 9  
-do iN_atom = 5,5  ! test = 1 , Nebula = 2, QSO = 3, Flat=4, AGN_con = 5 
+do iv_exp = 1,15    ! test = 1 , Nebula,QSO = 2 - 9  
+do iN_atom = 1,5  ! test = 1 , Nebula = 2, QSO = 3, Flat=4, AGN_con = 5 
 
 
 
 
 !call initialize_data(trim(basename)//'.txt') ! 내가 추가한 term + 변경해야할 곳
-basename = 'WOCIVL440M1NH220'
-call initialize_data('WOCIVL440M1NH220.txt') ! 내가 추가한 term + 변경해야할 곳
+!basename = 'WOCIVL440M1NH220'
+!call initialize_data('WOCIVL440M1NH220.txt') ! 내가 추가한 term + 변경해야할 곳
 call set_escape_observer()
 call set_dust('dust_data/MW_C_IV.dat')
-	write(fn_model,100) 'WOCIVL440M1NH220/N_atom',N_atom(iN_atom), &
+	write(fn_model,100) 'Data_CIV_int/N_atom',N_atom(iN_atom), &
 					'_Vexp', v_exp(iv_exp)/1e5, &
 					'_Vemit', v_emit(iv_emit)/1e5, &
 					'_tauD', tau_d(itau_d), &
@@ -232,7 +240,7 @@ call MPI_BARRIER(MPI_COMM_WORLD,err)
 !call set_grid_empty
 
 
-call set_grid_cloudy(N_atom(iN_atom), v_ran(iv_ran), v_exp(iv_exp), tau_d(itau_d)) ! 변경해야할 곳 ! cloudy or sphere, test
+call set_grid_sphere(N_atom(iN_atom), v_ran(iv_ran), v_exp(iv_exp), tau_d(itau_d)) ! 변경해야할 곳 ! cloudy or sphere, test
 
 if(mpar%rank .eq. master) then
 print*,'set_grid_done'
@@ -303,8 +311,9 @@ call init_random_seed()
         if (status(MPI_TAG) .eq.  0) exit
 	ans = 1
 	
+        call gen_photon_Gaussian(photon,v_emit(iv_emit))
         !call gen_photon_cloudy_QSO(photon,v_emit(iv_emit))  ! 변경 _cloudy_Nebula or _cloudy_QSO or Gaussian or AGN_con
-	call gen_photon_AGN_con(photon) ! 변경 AGN_con or flat 
+	!call gen_photon_AGN_con(photon) ! 변경 AGN_con or flat 
         call peeling_off_direct_metal(photon)
 
 		do 608

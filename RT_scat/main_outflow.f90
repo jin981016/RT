@@ -126,7 +126,7 @@ v_exp(16)  = 50.d5
 
 
 
-v_emit(1) = 1.d5
+v_emit(1) = 0.d5
 v_emit(2)  = 100.d5       ! cm/s
 v_emit(3)  = 200.d5! cm/s
 v_emit(4)  = 300.d5     ! cm/s

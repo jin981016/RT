@@ -18,6 +18,10 @@ from scipy import special
 import matplotlib.gridspec as gridspec
 from scipy.interpolate import interp1d
 
+
+
+
+
 warnings.filterwarnings('ignore', category=IntegrationWarning)
 
 kpc = const.kpc.cgs.value
@@ -126,7 +130,10 @@ def RT_CLOUDY_path(path,v_out, v_emit, v_rand, geo, atom, Lumin,idx,metals,Colum
         metals_str = str(int(metals))     # 1.0 → '1', 2.0 → '2'
 
     # if style.upper() =='CLOUDY' :
-    path_tt = f'{path}/{mode}{atom}L{lum}M{metals_str}NH{col}'
+    if path == "/home/jin/Data_metal":
+        path_tt = f'{path}/{mode}{atom}L{lum}M{metals_str}NH{col}'
+    elif path == "/home/jin/Claude_CIV_data/CIV_spatial_data" :
+        path_tt = f'{path}/{atom}L{lum}M{metals_str}NH{col}'
 
     # folder_path = f'{path}{folder_name}'
 
